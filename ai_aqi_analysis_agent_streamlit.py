@@ -202,9 +202,9 @@ def render_main_content():
     col1, col2 = st.columns(2)
     
     with col1:
-        city = st.text_input("City", placeholder="e.g., Mumbai")
+        city = st.text_input("City", placeholder="e.g., Sylhet")
         state = st.text_input("State", placeholder="If it's a Union Territory or a city in the US, leave it blank")
-        country = st.text_input("Country", value="India", placeholder="United States")
+        country = st.text_input("Country", value="Bangladesh", placeholder="United States")
     
     with col2:
         st.header("👤 Personal Details")
